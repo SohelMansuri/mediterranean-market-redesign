@@ -35,6 +35,14 @@ nav {
 /*    background-color: #287000;*/
 }
 
+.all-body-content-except-footer {
+    position: relative;
+    z-index: 100;
+    background: #fff;
+    margin-bottom: 500px;
+    overflow: hidden;
+}
+
 /* ----------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ----------------------------------------------- */
@@ -421,8 +429,13 @@ input[type=submit]:hover {
 /* ----------------------------------------------- */
 /* FOOTER */
 /* ----------------------------------------------- */
-.section-footer {
-    background-attachment: fixed;
+.footer {
+    width: 100%;
+    background: #000 url();
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+    color: white;
 }
 
 .section-footer-content {

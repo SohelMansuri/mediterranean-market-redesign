@@ -172,10 +172,12 @@ h3, h5 {
 }
 
 .promise-box .content {
+    font-size: 85%;
     flex-grow: 1;
     line-height: 150%;
     padding-top: 7%;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
+    word-spacing: 0.5px;
 }
 
 .promise-box a:link,
@@ -215,17 +217,23 @@ h3, h5 {
 
 .promise-visit {
     flex: 1;
-    background-color: #8fb288;
+    background-color: #F4F1EE;
+}
+
+.promise-times {
+    flex: 1;
+    background-color: #E4E0DB;
 }
 
 .promise-guarantee {
     flex: 1;
-    background-color: #5c9d4f;
+    background-color: #BCE6CD;
 }
 
 .promise-promise {
     flex: 1;
-    background-color: var(--color-highlight);
+    background-color: #84BB9D;
+/*    background-color: #7BB495;*/
 }
 
 /* ----------------------------------------------- */

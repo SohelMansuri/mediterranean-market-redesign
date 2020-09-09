@@ -529,6 +529,12 @@ input[type=submit]:hover {
 }
 
 .section-credits .icon-pack {
-    font-size: 13px;
+    font-size: 10px;
     line-height: 22px;
+    margin-top: 10px;
+}
+
+.icon-pack a {
+    text-decoration: none;
+    color: inherit;
 }

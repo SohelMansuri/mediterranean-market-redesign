@@ -538,3 +538,148 @@ input[type=submit]:hover {
     text-decoration: none;
     color: inherit;
 }
+
+/* ----------------------------------------------- */
+/* MEDIA-QUERIES */
+/* ----------------------------------------------- */
+@media only screen and (max-width: 480px) {
+    html,
+    body {
+        font-size: 18px;
+    }
+    
+    h2 {
+        font-size: 160%;
+        margin-bottom: 30px;
+    }
+    
+    h2::after {
+        height: 2px;
+        width: 100px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .header-description {
+        margin-bottom: 15px;
+    }
+    
+    .all-body-content-except-footer {
+        position: relative;
+        z-index: 0;
+        margin-bottom: 0px;
+    }
+    
+    .footer {
+        position: relative;
+        bottom: 0;
+        z-index: 0;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+    
+    .promises-flex-box {
+        flex-direction: column;
+    }
+    
+    .promise-box {
+        padding: 10% 10%;
+    }
+    
+    .countries-flex-box {
+        display: flex;
+        flex-direction: column;
+        height: 850px;
+    }
+    
+    .countries-flags {
+        padding: 20px 10px;
+    }
+    
+    .countries-flags h3 {
+        padding-top: 10px;
+    }
+
+    .countries-flags .copy {
+        margin-top: 7px;
+    }
+    
+    .country-icon {
+        width: 40px;
+    }
+    
+    .second {
+        padding-top: 20px;
+    }
+    
+    .customer-review-box-container {
+        margin: 5% 5%;
+        padding-top: 25px;
+        flex-direction: column;
+    }
+    
+    .customer-review-box {
+        margin: 12px 0px;
+        flex-basis: 100%;
+    }
+    
+    .customer-review-author img {
+        height: 60px;
+        width: 60px;
+        margin-right: 12px;
+    }
+    
+    .section-newsletter-flex-box {
+        flex-direction: column;
+        height: inherit;
+    }
+    
+    .newsletter-image-holder {
+        flex-basis: 50%;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px;
+    }
+
+    .newsletter-image-holder ion-icon {
+        font-size: 61px;
+        color: white;
+    }
+
+    .newsletter-content-holder {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 100%;
+        width: 75%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        margin-top: 25px;
+    }
+    
+    .newsletter-content-holder p {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .footer-flex-box {
+        flex-direction: column;
+    }
+    
+    .footer-column {
+        padding: 12px 40px;
+    }
+    
+    .form-holder {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    input[type=text], select, textarea {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+}

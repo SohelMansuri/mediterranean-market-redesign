@@ -404,7 +404,7 @@ h3, h5 {
 }
 
 .newsletter-image-holder ion-icon {
-    font-size: 122px;
+    font-size: 600%;
     color: white;
 }
 
@@ -483,9 +483,11 @@ input[type=submit]:hover {
 .footer-flex-box {
     display: flex;
     justify-content: space-evenly;
+/*    flex-wrap: wrap;*/
 }
 
 .footer-column {
+/*    min-width: 225px;*/
     display: flex;
     flex-direction: column;
     flex-grow: 0;
@@ -621,6 +623,28 @@ input[type=submit]:hover {
     }
 }
 
+@media only screen and (max-width: 799px) {
+    .all-body-content-except-footer {
+        position: relative;
+        z-index: 0;
+        margin-bottom: 0px;
+    }
+    
+    .footer {
+        position: relative;
+        bottom: 0;
+        z-index: 0;
+    }
+    
+    .footer-flex-box {
+        flex-direction: column;
+    }
+    
+    .footer-column {
+        padding: 12px 40px;
+    }
+}
+
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
     .customer-review-box {
@@ -640,10 +664,58 @@ input[type=submit]:hover {
     .countries-image {
         min-height: 450px;
     }
+    
+    .section-newsletter-flex-box {
+        flex-direction: column;
+        height: inherit;
+    }
+    
+    .newsletter-image-holder {
+        flex-basis: 50%;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px;
+    }
+
+    .newsletter-image-holder ion-icon {
+        font-size: 400%;
+    }
+
+    .newsletter-content-holder {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 100%;
+        width: 75%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        margin-top: 12px;
+    }
+    
+    .newsletter-content-holder p {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .form-holder {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    input[type=text], select, textarea {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
 }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+    h2 {
+        font-size: 140%;
+        margin-bottom: 30px;
+    }
+    
     h2::after {
         height: 2px;
         width: 100px;
@@ -653,18 +725,6 @@ input[type=submit]:hover {
     
     .header-description {
         margin-bottom: 15px;
-    }
-    
-    .all-body-content-except-footer {
-        position: relative;
-        z-index: 0;
-        margin-bottom: 0px;
-    }
-    
-    .footer {
-        position: relative;
-        bottom: 0;
-        z-index: 0;
     }
 
     section {
@@ -716,57 +776,5 @@ input[type=submit]:hover {
         height: 60px;
         width: 60px;
         margin-right: 12px;
-    }
-    
-    .section-newsletter-flex-box {
-        flex-direction: column;
-        height: inherit;
-    }
-    
-    .newsletter-image-holder {
-        flex-basis: 50%;
-        justify-content: center;
-        align-items: center;
-        padding-right: 0px;
-    }
-
-    .newsletter-image-holder ion-icon {
-        font-size: 61px;
-        color: white;
-    }
-
-    .newsletter-content-holder {
-        flex-grow: 0;
-        flex-shrink: 0;
-        flex-basis: 100%;
-        width: 75%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-self: center;
-        margin-top: 25px;
-    }
-    
-    .newsletter-content-holder p {
-        width: 100%;
-        margin-bottom: 25px;
-    }
-    
-    .footer-flex-box {
-        flex-direction: column;
-    }
-    
-    .footer-column {
-        padding: 12px 40px;
-    }
-    
-    .form-holder {
-        flex-direction: column;
-        width: 100%;
-    }
-    
-    input[type=text], select, textarea {
-        margin-right: 0px;
-        margin-bottom: 15px;
     }
 }

@@ -117,6 +117,7 @@ h3, h5 {
     align-items: center;
     height: 90px;
     width: auto;
+    margin-left: 5%;
 }
 
 .main-nav {
@@ -126,7 +127,20 @@ h3, h5 {
     justify-content: flex-end;
     align-items: center;
     padding-left: 5%;
-    padding-right: 5%;
+    margin-right: 5%;
+}
+
+.js--nav-icon {
+    display: none;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.main-nav ion-icon {
+    font-size: 32px;
+    color: white;
 }
 
 .main-nav li {
@@ -542,6 +556,14 @@ input[type=submit]:hover {
 /* ----------------------------------------------- */
 /* MEDIA-QUERIES */
 /* ----------------------------------------------- */
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    
+}
+
+/* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     html,
     body {
@@ -562,6 +584,29 @@ input[type=submit]:hover {
     
     .header-description {
         margin-bottom: 15px;
+    }
+    
+    .js--nav-icon {
+        display: inherit;
+    }
+      
+    .regular-nav li {
+        display: none;
+    }
+    
+    .mobile-nav {
+        display: none;
+    }
+    
+    .mobile-nav-flex-box {
+        display: flex;
+        flex-direction: column;
+        padding: 22px 10px;
+    }
+    
+    .mobile-nav-flex-box li {
+        font-size: 120%;
+        margin-bottom: 22px;
     }
     
     .all-body-content-except-footer {

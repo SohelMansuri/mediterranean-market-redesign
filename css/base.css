@@ -738,7 +738,6 @@ input[type=submit]:hover {
     .countries-flex-box {
         display: flex;
         flex-direction: column;
-        height: 850px;
     }
     
 /*

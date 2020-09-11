@@ -43,6 +43,14 @@ nav {
     overflow: hidden;
 }
 
+.pre-animated {
+    opacity: 0;
+}
+
+.animated {
+    opacity: 1;
+}
+
 /* ----------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ----------------------------------------------- */

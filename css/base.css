@@ -354,6 +354,8 @@ h3, h5 {
 }
 
 .customer-review-box {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     min-width: 275px;
     padding: 2.6% 4.4%;
@@ -372,9 +374,11 @@ h3, h5 {
 }
 
 .customer-review-box p {
+    flex-grow: 1;
     line-height: 150%;
     letter-spacing: 0.5px;
     font-size: 90%;
+    
 }
 
 .customer-review-author img {

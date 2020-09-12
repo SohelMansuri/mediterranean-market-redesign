@@ -1064,6 +1064,12 @@ input[type=submit]:hover {
         flex-direction: column;
     }
     
+    .promise-box {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    }
+    
     .countries-flex-box {
         display: -webkit-box;
         display: -ms-flexbox;

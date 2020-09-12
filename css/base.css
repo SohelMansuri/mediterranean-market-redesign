@@ -969,8 +969,9 @@ input[type=submit]:hover {
     }
     
     .newsletter-image-holder {
-        -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         -webkit-justify-content: center;
@@ -987,12 +988,8 @@ input[type=submit]:hover {
 
     .newsletter-content-holder {
         -webkit-box-flex: 0;
-        -ms-flex-positive: 0;
-        flex-grow: 0;
-        -ms-flex-negative: 0;
-        flex-shrink: 0;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
         width: 75%;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -1026,6 +1023,15 @@ input[type=submit]:hover {
     input[type=text], select, textarea {
         margin-right: 0px;
         margin-bottom: 15px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    }
+    
+    input[type=submit] {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
     }
 }
 

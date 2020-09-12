@@ -1115,8 +1115,6 @@ input[type=submit]:hover {
     
     .customer-review-box {
         margin: 12px 0px;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
     }
     
     .customer-review-author img {

@@ -171,6 +171,71 @@ h3, h5 {
 }
 
 /* ----------------------------------------------- */
+/* CAROUSEL */
+/* ----------------------------------------------- */
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.dots {
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.mySlides img {
+    vertical-align: middle;
+    height: 65%;
+    width: 100%;
+/*    width: 1140px;*/
+    object-fit: cover;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 10 2px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: var(--color-highlight);
+/*    background-color: var(--color-primary-one);*/
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* ----------------------------------------------- */
 /* PROMISES */
 /* ----------------------------------------------- */
 .promises-flex-box {

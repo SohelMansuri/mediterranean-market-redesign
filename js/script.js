@@ -16,7 +16,7 @@ $(document).ready(function() {
             menuIcon.setAttribute("name", "close-outline");
         } else {
             menuIcon.setAttribute("name", "menu-outline");
-        }  
+        }
     });
     
     /* Animations on scroll */
@@ -35,7 +35,8 @@ $(document).ready(function() {
         aFI.className += pulseAnimation;
         pFI.className += pulseAnimation;
         tFI.className += pulseAnimation;
-      }});
+      }, offset: '300px'
+    });
     
     /* Customer Reviews Animation */
     var customerReviewsAnimation = new Waypoint({
@@ -47,7 +48,7 @@ $(document).ready(function() {
         for (i = 0; i < x.length; i++) {
           x[i].className += bounceInDown;
         }
-      }
+      }, offset: '200px'
     });
     
      /* Newsletter Animation */

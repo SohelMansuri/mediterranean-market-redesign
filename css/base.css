@@ -898,11 +898,17 @@ input[type=submit]:hover {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
     
     .customer-review-box {
         margin: 12px 0px;
         max-width: 340px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
     }
 }
 

@@ -1081,11 +1081,17 @@ input[type=submit]:hover {
         flex-direction: column;
     }
     
-/*
-    .countries-flags {
-        padding: 20px 10px;
+    .countries-image {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
     }
-*/
+    
+    .countries-flags {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    }
     
     .countries-flags h3 {
         padding-top: 10px;

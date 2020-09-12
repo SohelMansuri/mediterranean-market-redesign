@@ -112,6 +112,7 @@ h3, h5 {
 .nav-flex-box {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -126,6 +127,7 @@ h3, h5 {
     flex-basis: 15%;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -145,6 +147,7 @@ h3, h5 {
     flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
@@ -262,6 +265,7 @@ h3, h5 {
 .promises-flex-box {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -277,6 +281,7 @@ h3, h5 {
 .promise-box {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
@@ -316,6 +321,7 @@ h3, h5 {
 .promise-box a:visited {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -375,6 +381,7 @@ h3, h5 {
 .countries-flex-box {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -405,9 +412,8 @@ h3, h5 {
     flex-basis: 50%;
     
     display: -webkit-box;
-    
     display: -ms-flexbox;
-    
+    display: -webkit-flex;
     display: flex;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
@@ -427,6 +433,7 @@ h3, h5 {
 .countries-flags .flex-row {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -447,6 +454,7 @@ h3, h5 {
 .countries-flags .country {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -494,6 +502,7 @@ h3, h5 {
     padding-top: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -511,6 +520,7 @@ h3, h5 {
 .customer-review-box {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -534,6 +544,7 @@ h3, h5 {
 .customer-review-author {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -571,6 +582,7 @@ h3, h5 {
 .section-newsletter-flex-box {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -591,6 +603,7 @@ h3, h5 {
     flex-basis: 40%;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
@@ -616,6 +629,7 @@ h3, h5 {
     flex-basis: 60%;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -643,6 +657,7 @@ h3, h5 {
 .form-holder {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -700,6 +715,7 @@ input[type=submit]:hover {
 .footer-flex-box {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
@@ -711,6 +727,7 @@ input[type=submit]:hover {
 /*    min-width: 225px;*/
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -753,12 +770,14 @@ input[type=submit]:hover {
 .double-column-flex-box {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
 }
 
 .double-column {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -772,6 +791,7 @@ input[type=submit]:hover {
 .footer-column-item-flex-box {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -819,7 +839,7 @@ input[type=submit]:hover {
 /* ----------------------------------------------- */
 
 /* Small tablet to big tablet: from 768px to 1023px */
-@media only screen and (max-width: 1023px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (max-width: 1023px) {
     html,
     body {
         font-size: 18px;
@@ -845,6 +865,7 @@ input[type=submit]:hover {
     .mobile-nav-flex-box {
         display: -webkit-box;
         display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -859,7 +880,7 @@ input[type=submit]:hover {
     }
 }
 
-@media only screen and (max-width: 999px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (max-width: 999px) {
     .customer-review-box-container {
         margin: 0% 5%;
         padding-top: 25px;
@@ -875,7 +896,7 @@ input[type=submit]:hover {
     }
 }
 
-@media only screen and (max-width: 799px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (max-width: 799px) {
     .all-body-content-except-footer {
         position: relative;
         z-index: 0;
@@ -901,7 +922,7 @@ input[type=submit]:hover {
 }
 
 /* Small phones to small tablets: from 481px to 767px */
-@media only screen and (max-width: 767px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (max-width: 767px) {
     .customer-review-box {
         padding: 30px 25px;
     }
@@ -911,7 +932,7 @@ input[type=submit]:hover {
     }
 }
 
-@media only screen and (max-width: 699px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (max-width: 699px) {
     .promise-box {
         padding: 5% 10%;
     }
@@ -988,7 +1009,7 @@ input[type=submit]:hover {
 }
 
 /* Small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (max-width: 480px) {
     h2 {
         font-size: 140%;
         margin-bottom: 30px;
@@ -1019,6 +1040,7 @@ input[type=submit]:hover {
     .countries-flex-box {
         display: -webkit-box;
         display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;

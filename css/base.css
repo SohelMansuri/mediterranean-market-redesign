@@ -560,8 +560,8 @@ h3, h5 {
 
 .customer-review-box p {
     -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
     line-height: 150%;
     letter-spacing: 0.5px;
     font-size: 90%;
